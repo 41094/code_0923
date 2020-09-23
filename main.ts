@@ -1,4 +1,10 @@
 basic.showNumber(0)
 basic.forever(function () {
-	
+    basic.showNumber(0)
+    basic.showIcon(IconNames.Heart)
+    basic.clearScreen()
+    basic.showIcon(IconNames.Yes)
+    basic.clearScreen()
+    basic.showIcon(IconNames.No)
+    basic.showString("Hello!")
 })
